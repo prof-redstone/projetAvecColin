@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #000000;
+    color: white;
+}
+
+canvas {
+    position: absolute;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url("./Segoe\ UI.ttf");
+}
+
+@font-face {
+    font-family: "Tron";
+    src: url("./TRON.TTF");
+}
+
+/* popup */
+
+.popup {
+    position: absolute;
+    display: block;
+    z-index: 100;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #555;
+    border-radius: 7px;
+    opacity: 1;
+    /*texte non surlignable */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.popupTextDiv {
+    margin: 10px;
+}
+
+.popup {
+    font-family: sans-serif;
+}
+
+#settings {
+    display: none;
+}
+
+.pophead {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    padding: 10px;
+}
+
+.settingText {
+    text-decoration: underline;
+}
+
+.popbody {
+    margin: 10px;
+}
+
+#h5FPS {
+    display: inline;
+}
+
+#selectFPS {
+    margin-left: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 1px 3px;
+    background-color: #bbb;
+    border-radius: 5px;
+}
+
+.close {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#closebtn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #333;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.closeH4 {
+    color: #fff;
+    font-weight: lighter;
+    font-variant-caps: all-small-caps;
+}
+
+/* CSS Reset */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* end of css reset */
