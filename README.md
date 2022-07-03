@@ -1,4 +1,4 @@
-# PongGame
+# PongGame (ceci est une archive d'un vieux projet)
 
 Game pong made with Tom
 
